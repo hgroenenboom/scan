@@ -11,10 +11,9 @@ int main(int argc, const char * argv[]) {
         
     int* pointer = nullptr;
     
-    if (*pointer > 0)
-    {
-        std::cout << "hello" << std::endl;
-    }
+    int value = *pointer;
+    
+    std::cout << value << std::endl;
     
     return 0;
 }
