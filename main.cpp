@@ -12,9 +12,9 @@
 
 int main(int argc, const char * argv[]) {
         
-    std::array<int, 3> ar = {1,2,3};
+    char a[4];
     
-    std::cout << ar[6] << std::endl;
+    std::cout << a[10] << std::endl;
     
     return 0;
 }
