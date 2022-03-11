@@ -7,13 +7,14 @@
 
 #include <iostream>
 
+#include <array>
+#include <array>
+
 int main(int argc, const char * argv[]) {
         
-    int* pointer = nullptr;
+    std::array<int, 3> ar = {1,2,3};
     
-    int value = *pointer;
-    
-    std::cout << value << std::endl;
+    std::cout << ar[6] << std::endl;
     
     return 0;
 }
